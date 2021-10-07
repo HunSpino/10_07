@@ -7,4 +7,9 @@ public class Kave extends Forroital {
         super(nev, homerseklet, ar);
         this.tej = tej;
     }
+
+    @Override
+    public String toString() {
+        return String.format("%s, plusz tey: %d",super.toString(),tej);
+    }
 }

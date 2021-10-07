@@ -10,6 +10,7 @@ public class Forroital {
         this.homerseklet = homerseklet;
         this.ar = ar;
     }
+
 }
 
 
